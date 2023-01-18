@@ -24,7 +24,7 @@ EXTENSIONS_MAPPING = {".mp3": "Musique",
                       ".odp": "Documents",
                       ".pages": "Documents"}
 
-BASE_DIR = Path('/Users/thibh/trieur_fichiers/data')
+BASE_DIR = Path('C:\Users\jerem\Downloads')
 
 # On récupère tous les fichiers dans le dossier de base
 files = [f for f in BASE_DIR.iterdir() if f.is_file()]

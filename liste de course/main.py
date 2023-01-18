@@ -2,13 +2,13 @@ import sys
 
 liste_de_course = []
 
-a = input("""Choisissez parmi les 5 options suivantes :
+a = int(input("""Choisissez parmi les 5 options suivantes :
 1:Ajouter un élément à la liste
 2:Retirer un élément de la liste
 3:Afficher les éléments de la liste
 4:Vider la liste
 5:Quitter
-?Votre choix :""")
+?Votre choix :"""))
 
 if (a < 1 or a > 5):
     print("Veuillez choisir une option valide...")
